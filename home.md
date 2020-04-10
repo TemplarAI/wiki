@@ -2,7 +2,7 @@
 title: TempleAI
 description: 
 published: true
-date: 2020-04-10T13:32:59.746Z
+date: 2020-04-10T13:33:26.017Z
 tags: 
 ---
 
