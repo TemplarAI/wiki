@@ -41,7 +41,6 @@ spec:
         imagePullPolicy: ""
         name: wiki
         ports:
-        - containerPort: 80
         - containerPort: 3000
         resources: {}
       restartPolicy: Always
