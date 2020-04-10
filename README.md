@@ -11,6 +11,8 @@ kompose convert
 ```
 
 ```
-microk8s kubectl apply -f db-data-persistentvolumeclaim.yaml -f db-data-persistentvolumeclaim.yaml -f wiki-deployment.yaml -f wiki-service.yaml
+microk8s kubectl apply -fdb-service.yaml -f wiki-service.yaml -f db-deployment.yaml -f db-data-persistentvolumeclaim.yaml -f wiki-deployment.yaml -f wiki-ingress.yaml
 ```
+
+This will allow the wiki to be configured on http://localhost:80
 
