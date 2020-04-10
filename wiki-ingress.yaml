@@ -12,3 +12,7 @@ spec:
           backend:
             serviceName: wiki
             servicePort: 3000
+        - path: /heimdall
+          backend:
+            serviceName: heimdall
+            servicePort: 80
