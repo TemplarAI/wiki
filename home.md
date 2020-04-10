@@ -2,9 +2,9 @@
 title: TempleAI
 description: 
 published: true
-date: 2020-04-10T08:39:41.101Z
+date: 2020-04-10T09:04:19.589Z
 tags: 
 ---
 
-# Header
-Your content here
+# TempleAI
+This is where I gather important information related to the TempleAI project.
