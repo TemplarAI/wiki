@@ -13,6 +13,8 @@ spec:
   - name: "3000"
     port: 3000
     targetPort: 3000
+    nodePort: 30492
+  type: NodePort
   selector:
     io.kompose.service: wiki
 status:
